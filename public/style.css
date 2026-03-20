@@ -77,3 +77,21 @@ body {
     grid-column: 3;
     grid-row: 2;
 }
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px;
+    place-items: center; 
+    border-bottom: 1px solid rgba(180, 255, 184, 0.1);
+    padding: 0; 
+    overflow: hidden;
+}
+.hero h2 {
+    font-family: 'Michroma', sans-serif;
+    letter-spacing: 4px;
+    color: rgb(180, 255, 184);
+    text-shadow: 0 0 15px rgba(180, 255, 184, 0.4);
+    margin: 0;         
+    line-height: 0;     
+    display: block;
+}
