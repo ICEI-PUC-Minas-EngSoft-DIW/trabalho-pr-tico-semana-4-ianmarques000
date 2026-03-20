@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
-    background-color: aquamarine;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(24, 24, 24), rgb(38, 43, 38));
+    color: rgb(180, 255, 184);
+    display: grid;
+    place-items: start center;
+}
+
+.main {
+    width: 100%;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+}
+
+.header {
+    font-family: 'Michroma', sans-serif;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    background-color: rgb(48, 48, 48);
+    padding: 24px 40px; 
+    min-height: 80px;
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-button {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.header-button button, .header-button label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-image: linear-gradient(rgb(48, 48, 48), rgb(62, 70, 62)); 
+    color: rgb(180, 255, 184);
+    
+    padding: 8px 16px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.side {
+    background-color: rgba(255, 255, 255, 0.04);
+    min-height: 120px;
+}
+
+.side-left {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.main-content {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 20px;
+}
+
+.side-right {
+    grid-column: 3;
+    grid-row: 2;
 }
