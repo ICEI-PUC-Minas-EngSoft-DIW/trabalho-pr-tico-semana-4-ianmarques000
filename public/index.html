@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WaveForge</title>
     <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="main">
+        <input type="checkbox" id="about-control" style="display: none;">
+
+        <div class="modal-overlay">
+            <div class="modal-content">
+                <label for="about-control" class="close-button">&times;</label>
+                <h3>About:</h3>
+                <p style="line-height: 1.6; color: rgba(180, 255, 184, 0.9);">
+                    WAVEFORGE is a music digital sanctuary. 
+                    From raw oscillators to complex atmospheric landscapes, every frequency 
+                    is forged to resonate. This is where synthesis meets obsession.
+                </p>
+            </div>
+        </div>
+        
         <header class="header">
             <h1>WAVEFORGE</h1>
             <div class="header-button">
-                <button>About</button>
-                <button>Contact</button>
+                <label for="about-control" class="btn-about">ABOUT</label>
+                <button>CONTACT</button>
             </div>
         </header>
 

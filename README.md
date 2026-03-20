@@ -8,17 +8,17 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Ian Poty Arandu de Albuquerque Marques
+- Matricula: 1378870
+- Proposta de projeto escolhida: 5. Temas e Conteúdos Associados
+- Breve descrição sobre seu projeto: A WAVEFORGE é uma interface digital imersiva projetada para refletir a estética da síntese sonora e do design industrial.
 
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](/public/img/wireframe.png)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Wireframe](/public/img/print-homepage.png)
