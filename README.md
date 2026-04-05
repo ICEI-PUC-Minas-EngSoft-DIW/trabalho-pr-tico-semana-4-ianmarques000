@@ -14,11 +14,11 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Breve descrição sobre seu projeto: A WAVEFORGE é uma interface digital imersiva projetada para refletir a estética da síntese sonora e do design industrial.
 
 
-## Print do(s) wireframe(s) criado
+## Print da Homepage desktop criado
 
-![Wireframe](/public/img/wireframe.png)
+![Wireframe](/public/img/print-homepage-desktop.png)
 
 
-## Print da home-page criada
+## Print da Homepage mobile criado
 
-![Wireframe](/public/img/print-homepage.png)
+![Wireframe](/public/img/print-homepage-mobile.png)
