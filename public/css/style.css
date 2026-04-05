@@ -217,11 +217,11 @@ footer {
     grid-column: 1 / 4;
     grid-row: 3;
     display: flex;
-    flex-direction: row; /* Alinha os itens lado a lado */
-    align-items: center; /* Centraliza verticalmente o texto e os links */
-    justify-content: space-between; /* Empurra o texto para a esquerda e o nav para a direita */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgb(24, 24, 24);
-    padding: 24px 40px; /* Mantém o mesmo recuo do cabeçalho */
+    padding: 24px 40px;
     font-family: 'Michroma', sans-serif;
     font-size: 10px;
     letter-spacing: 2px;
@@ -234,7 +234,7 @@ footer {
 footer nav { 
     display: flex;
     flex-wrap: wrap; 
-    gap: 24px; /* Aumentei um pouquinho o espaçamento entre os links */
+    gap: 24px;
 }
 
 footer nav a {
@@ -251,4 +251,51 @@ footer nav a:hover {
 }
 #contact-control:checked + .modal-overlay {
     display: flex;
+}
+@media (max-width: 768px) {
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    .side {
+        display: none;
+    }
+
+    .main-content {
+        grid-column: 1;
+        padding: 15px;
+    }
+
+    header {
+        grid-column: 1;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hero h2 {
+        font-size: 14px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    footer {
+        grid-column: 1;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    footer nav {
+        justify-content: center;
+    }
+
+    .modal-content {
+        width: 90%;
+        margin: 0 10px;
+    }
 }
