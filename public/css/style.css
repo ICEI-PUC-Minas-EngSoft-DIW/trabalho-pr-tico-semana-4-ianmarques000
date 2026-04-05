@@ -215,3 +215,19 @@ header {
 #about-control:checked ~ .modal-overlay {
     display: flex;
 }
+.footer {
+    grid-column: 1 / 4;
+    grid-row: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(180, 255, 184, 0.6);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+}
